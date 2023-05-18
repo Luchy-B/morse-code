@@ -25,3 +25,4 @@ def decode_Message(mMessage)
         decode_word(word)
     end
 end
+decode_Message("      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
