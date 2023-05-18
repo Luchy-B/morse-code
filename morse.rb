@@ -16,13 +16,15 @@ def decode_word(mword)
   letters.each do |letter|
     words += decode_char(letter)
   end
-  print "#{words} "
+  return words + ' '
 end
 
 def decode_message(message)
   words = message.split('  ')
+  d_message = ''
   words.each do |word|
-    decode_word(word)
+    d_message += decode_word(word)
   end
+  return 
 end
 decode_message('      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
