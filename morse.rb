@@ -20,9 +20,9 @@ def decode_word(mword)
 end
 
 def decode_message(message)
-    words = message.split('  ')
-    words.each do |word|
-        decode_word(word)
-    end
+  words = message.split('  ')
+  words.each do |word|
+    decode_word(word)
+  end
 end
-decode_message("      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+decode_message('      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
