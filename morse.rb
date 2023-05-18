@@ -19,4 +19,9 @@ def decode_word(mword)
   print "#{words} "
 end
 
-decode_word('-- -.--')
+def decode_Message(mMessage)
+    words = mMessage.split('  ')
+    words.each do |word|
+        decode_word(word)
+    end
+end
