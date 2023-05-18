@@ -43,5 +43,12 @@ def decode_char(mCode)
   puts($morseCode[mCode])
 end
 
-
+def decode_word(mWord)
+    letters = mWord.split
+    words = ''
+    letters.each do |letter|
+        words += $morseCode[letter]
+  end
+  print "#{words} "
+end
 
