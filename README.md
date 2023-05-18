@@ -1,29 +1,6 @@
 # Morse code Decoder
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -60,26 +37,14 @@ After you're finished please remove all the comments and instructions!
 > The tech stack in this project includes.
 
 <details>
-  <summary>Client</summary>
-</details>
-
-<details>
-  <summary>Server</summary>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
+  <summary>Ruby</summary>
 </details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **DataBase for managing animal clinic**
-- **Animal Table with sample records**
+- **For decoding Morse code**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,42 +64,33 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: **PostgreSQL or any other SQL database**.
-
-<!--
-Example command:
+In order to run this project you need: **Ruby installed**.
 
 ```sh
- gem install rails
+ gem install ruby
 ```
- -->
 
 ### Setup
 
-- Clone [this repository](https://github.com/Microverse-Fullstack-Program/vet-clinic-database) to your desired folder.
+- Clone [this repository](https://github.com/Luchy-B/morse-code) to your desired folder.
 - Alternatively, you can download the zip file of your project by clicking on the Code button on the right side of your project page and clicking on Download ZIP
 
 
 ### Install
 
-Install this project with: [Install PostgreSQL](https://www.postgresql.org/download/)
-
-<!--
-Example command:
+Install this project with: 
 
 ```sh
   cd my-project
-  gem install
+  gem install ruby
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-- Start Postgres server.
-- Run psql.
-- Create table.
+- Install Ruby.
+- Install Ruby Gem
 
 
 ### Run tests
@@ -152,14 +108,6 @@ Example command:
 ### Deployment
 
 You can deploy this project using: **Not available**.
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,8 +134,7 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 In the future work, 
-- [ ] **Treatment Table**
-- [ ] **Invoices Table**
+- [ ] **Create Morse code in a Class**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,7 +144,7 @@ In the future work,
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Microverse-Fullstack-Program/vet-clinic-database/issues).
+Feel free to check the [issues page](https://github.com/Luchy-B/morse-code/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,7 +160,7 @@ Feel free to check the [issues page](https://github.com/Microverse-Fullstack-Pro
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [Microverseinc](https://github.com/microverseinc) for the [curriculum-template-databases](https://github.com/microverseinc/curriculum-template-databases)
+I would like to thank [Microverseinc](https://github.com/microverseinc) for the [curriculum-template-ruby](https://github.com/microverseinc/curriculum-ruby)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,7 +170,7 @@ I would like to thank [Microverseinc](https://github.com/microverseinc) for the 
 
 - **For what purpose this project can be used**
 
-  - For educational purpose. Any one who want learn relational database.
+  - The project can be used to decode morse code letters, characters or words.
 
 - **Can I use this project for my website?**
 
@@ -235,6 +182,6 @@ I would like to thank [Microverseinc](https://github.com/microverseinc) for the 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
