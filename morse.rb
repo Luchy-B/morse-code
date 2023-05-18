@@ -16,7 +16,7 @@ def decode_word(mword)
   letters.each do |letter|
     words += decode_char(letter)
   end
-  return words + ' '
+  return '#{words} '
 end
 
 def decode_message(message)
@@ -25,6 +25,6 @@ def decode_message(message)
   words.each do |word|
     d_message += decode_word(word)
   end
-  return 
+  return d_message
 end
 decode_message('      .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
